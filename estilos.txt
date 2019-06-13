@@ -1,0 +1,8 @@
+Fondo html = #E1E1E1
+
+Color de logo:
+rojo:  cb4539
+gris: 959595
+negro: 2a2a2a
+letras grises: 363435
+azul: 000039
