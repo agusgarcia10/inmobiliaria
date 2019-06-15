@@ -27,6 +27,7 @@ time, mark, audio, video {
 
 body{
     background-color: #E1E1E1;
+
 }
 
 /* CSS de nav */
@@ -45,6 +46,7 @@ nav #imagen_telefono img{
 nav #num_telefono p{
     padding: 5px;
     font-size: 20px;
+    font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
 }
 nav button{
    align-items: center;
@@ -81,27 +83,36 @@ nav button:hover{
 /* Termina logo */
 
 
-/* Empieza barra lateral */
+/* Empieza barra horizontal */
 #barra_lateral{
     margin: 10px;
-    padding: 3px;
-    background-color: #cb4539;
-    display: inline-block;
+    padding: 10px;
+    background-color: #000039;
+    /* display: block; */
 }
 #barra_lateral #opciones ul{
     list-style: none;
     padding: 3px;
-    
+    text-align: center;
+    font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
+    font-size: 21.3px;
 }
-#barra_lateral #opciones ul li{
-    padding: 3.5px;
+#barra_lateral #opciones li{
+    padding: 0 20px;
+    color: white;
 }
+#barra_lateral #opciones li{
+    display: inline;
+}
+/* #barra_lateral #opciones ul li:hover{
+    font-size: 25;
+} */
 /* #imagen_barra{
     position: absolute;
     width: 350px;
     padding: 0px;
 } */
-/* Termina barra lateral */
+/* Termina barra horizontal */
 
 
 
