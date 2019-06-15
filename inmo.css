@@ -31,7 +31,7 @@ body{
 }
 
 /* CSS de nav */
-nav{
+#cabecera{
     background-color: #000039;
     color: white;
     display: flex;
@@ -39,16 +39,16 @@ nav{
     margin: 10px;
     justify-content: flex-end;
 }
-nav #imagen_telefono img{
+#cabecera #imagen_telefono img{
     width: 30px;
     padding: 5px;
 }
-nav #num_telefono p{
+#cabecera #num_telefono p{
     padding: 5px;
     font-size: 20px;
     font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
 }
-nav button{
+#cabecera button{
    align-items: center;
    border-radius: 4px;
    border: 2px solid #DBDDE0;
@@ -59,7 +59,7 @@ nav button{
    font-weight: bold;
    background-color: #DBDDE0;
 }
-nav button:hover{
+#cabecera button:hover{
     background-color: whitesmoke;
 }
 
@@ -84,34 +84,33 @@ nav button:hover{
 
 
 /* Empieza barra horizontal */
+
 #barra_lateral{
-    margin: 10px;
-    padding: 10px;
     background-color: #000039;
-    /* display: block; */
+    margin: 15px 10px 10px 10px;
 }
-#barra_lateral #opciones ul{
-    list-style: none;
-    padding: 3px;
+#barra_lateral ul{
     text-align: center;
-    font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
-    font-size: 21.3px;
 }
-#barra_lateral #opciones li{
-    padding: 0 20px;
+#barra_lateral ul .opcion{
     color: white;
+    margin: 15px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
-#barra_lateral #opciones li{
-    display: inline;
+#barra_lateral ul .opcion:hover{
+    background-color: #B9B499;
+    color: #000039;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 1px solid #B9B499; */
+    border-radius: 2px;
+    transition: all .5s ease-out 0s;
 }
-/* #barra_lateral #opciones ul li:hover{
-    font-size: 25;
-} */
-/* #imagen_barra{
-    position: absolute;
-    width: 350px;
-    padding: 0px;
-} */
+
 /* Termina barra horizontal */
 
 
